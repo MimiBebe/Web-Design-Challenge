@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
 <div class="navigation">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="homepage.html">Latitude</a>
@@ -46,100 +47,71 @@
     </div>
 
   </nav>
-  
 </div>
 
+
+
   <div class="container">
+    <div class="row">
+    <div class = "box">
+
+        <h2 class="title"> Comparison: Latitude vs. X </h2>
+        <hr>
+        <p>Click any plot to get an indept analysis. </p>
+  
+  
+
+    <div class = "container">
+    <div class="row">
+      <div class="col-6" style="padding: 40px" >
+          
+          <h5 class="title">vs. Max Temperature </h5>
+          <hr>
+          <a href="maxtemp.html">
+            <img class = "panel" src="Resources/assets/images/Fig1.png"  class="rounded mx-auto d-block" alt="Max Temperature Graph" >
+            </a>
+      </div>
+ 
+
+      <div class="col-6" style="padding: 40px" > 
+
+          <h5 class="title">vs. Humidity </h5>
+          <hr>
+          <a href="humidity.html">
+            <img class = "panel" src="Resources/assets/images/Fig2.png" class="rounded mx-auto d-block"  alt="Huminity Graph" >
+            </a>
+      </div>
+
+    </div>
 
     <div class="row">
 
-      <div class="col-lg-7 col-md-12">
-
-        <!-- left box -->
-        <div class="box">
+      <div class="col-6"style="padding: 40px" >
           
-          <h2 class="title"> Summary: Latitude vs. X </h2>
+          <h5 class="title">vs. Cloudiness</h5>
           <hr>
-          <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph" >
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-            any trends and correlations witnessed.</p>
-        </div>
+          <a href="cloudiness.html">
+            <img class = "panel" src="Resources/assets/images/Fig3.png"  class="rounded mx-auto d-block" alt="Cloudiness Graph" >
+            </a>
         
       </div>
  
 
-    <div class="col-lg-5 col-md-12">
-      <!-- Right Box -->
-      <div class="box">
-        <h4 class="title">Visualizations</h4>
-        <hr>
+      <div class="col-6"style="padding: 40px"> 
+          
+          <h5 class="title">vs. Windspeed </h5>
+          <hr>
+          <a href="windspeed.html">
+            <img class = "panel" src="Resources/assets/images/Fig4.png" class="rounded mx-auto d-block"  alt="Windspeed Graph" >
+            </a>
         
-        <div class="container">
-          <!-- Row 1 -->
-          <div class = "row">
-              <!-- Col 1 -->
-              <div class = "col-6">
-
-                <a href="maxtemp.html">
-                  <img src="Resources/assets/images/Fig1.png"  alt="Max Temperature Graph" >
-                </a>
-
-              </div>
-
-               <!-- Col 2 -->
-               <div class = "col-6">
-
-                <a href="humidity.html">
-                  <img src="Resources/assets/images/Fig2.png"  alt="Humidity Graph" >
-                </a>
-
-              </div>
-
-
-          </div>
-
-           <!-- Row 2 -->
-          <div class = "row">
-            <!-- Col 1 -->
-            <div class = "col-6">
-
-              <a href="cloudiness.html">
-                <img src="Resources/assets/images/Fig3.png"  alt="Cloudiness Graph" >
-              </a>
-
-            </div>
-
-             <!-- Col 2 -->
-             <div class = "col-6">
-               
-              <a href="windspeed.html">
-                <img src="Resources/assets/images/Fig4.png"  alt="Windspeed Graph" >
-              </a>
-
-            </div>
-
-
-        </div>
-
-
-
-          </div>
-
-
-
+      </div>
+    </div>
 
   </div>
+</div>
 
-
-
-
-
-
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
